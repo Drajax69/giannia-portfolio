@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Next-generated type-validation files (regenerated under .next/types).
+    "types/**",
   ]),
 ]);
 
